@@ -8,9 +8,11 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <main>
-        <div>Hello World!</div>
-      </main>
+      <div className="container mx-auto">
+        <main>
+          <div>Hello World!</div>
+        </main>
+      </div>
     </div>
   );
 }

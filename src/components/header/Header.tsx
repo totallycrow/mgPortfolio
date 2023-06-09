@@ -5,20 +5,28 @@ import { EmailIcon } from "../utils/icons/EmailIcon";
 
 export const Header = () => {
   return (
-    <header className="w-screen flex content-center justify-center bg-slate-200">
-      <nav className="flex w-1/3 justify-center">
-        <ul className="w-full flex justify-center">
-          <li>Work</li>
-          <li>Misc</li>
-          <li>About</li>
-          <li>Contact</li>
+    <header className="w-screen h-32 h-32 bg-slate-200 ">
+      <div className="w-full h-full flex content-center justify-center container mx-auto">
+        <nav className="flex w-1/3 justify-center content-center m-auto">
+          <ul className="w-full flex justify-start">
+            <li className="px-2">Work</li>
+            <li className="px-2">Misc</li>
+            <li className="px-2">About</li>
+            <li className="px-2">Contact</li>
+          </ul>
+        </nav>
+        <div className="flex w-1/3 justify-center m-auto">Logo</div>
+        <ul className="flex w-1/3 justify-end my-auto">
+          <li className="px-2">
+            <InstagramIcon />
+          </li>
+          <li className="px-2">
+            <LinkedinIcon />
+          </li>
+          <li className="px-2">
+            <EmailIcon />
+          </li>
         </ul>
-      </nav>
-      <div className="flex w-1/3 justify-center">Logo</div>
-      <div className="flex w-1/3 justify-center">
-        <InstagramIcon />
-        <LinkedinIcon />
-        <EmailIcon />
       </div>
     </header>
   );
