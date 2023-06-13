@@ -1,12 +1,44 @@
 import Image from "next/image";
-import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+import { Header } from "@/components/header/Header";
+import { GridContainer } from "@/components/grid/GridContainer";
+
+import StaticImageCard from "@/components/grid/StaticImageCard";
+import ShowcaseImageCard from "@/components/grid/ShowcaseImageCard";
+import Layout from "@/components/ui/Layout";
 
 export default function Home() {
   return (
-    <main>
-      <div>Hello World!</div>
-    </main>
+    <Layout>
+      <main>
+        <div>Hello World!</div>
+        <GridContainer>
+          <ShowcaseImageCard
+            imageUrl="https://via.placeholder.com/1080x1080/eee?text=1:1"
+            hoverText="Lorem ipsum dolor sit amet"
+            link="#"
+          />
+          <ShowcaseImageCard
+            imageUrl="https://via.placeholder.com/1080x1080/eee?text=1:1"
+            hoverText="Lorem ipsum dolor sit amet"
+            link="#"
+          />
+          <ShowcaseImageCard
+            imageUrl="https://via.placeholder.com/1080x1080/eee?text=1:1"
+            hoverText="Lorem ipsum dolor sit amet"
+            link="#"
+          />
+          <ShowcaseImageCard
+            imageUrl="https://via.placeholder.com/1080x1080/eee?text=1:1"
+            hoverText="Lorem ipsum dolor sit amet"
+            link="#"
+          />
+          <StaticImageCard imageUrl="https://via.placeholder.com/1080x1080/eee?text=1:1" />
+          <StaticImageCard imageUrl="https://via.placeholder.com/1080x1080/eee?text=1:1" />
+          <StaticImageCard imageUrl="https://via.placeholder.com/1080x1080/eee?text=1:1" />
+          <StaticImageCard imageUrl="https://via.placeholder.com/1080x1080/eee?text=1:1" />
+        </GridContainer>
+      </main>
+    </Layout>
   );
 }
