@@ -33,7 +33,8 @@ export default function Home() {
             hoverText="Lorem ipsum dolor sit amet"
             link="#"
           />
-
+          <StaticImageCard imageUrl="https://via.placeholder.com/1080x1080/eee?text=1:1" />
+          <StaticImageCard imageUrl="https://via.placeholder.com/1080x1080/eee?text=1:1" />
           <StaticImageCard imageUrl="https://via.placeholder.com/1080x1080/eee?text=1:1" />
           <StaticImageCard imageUrl="https://via.placeholder.com/1080x1080/eee?text=1:1" />
         </GridContainer>

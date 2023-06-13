@@ -5,7 +5,7 @@ import { EmailIcon } from "../utils/icons/EmailIcon";
 
 export const Header = () => {
   return (
-    <header className="w-screen h-32 h-32 bg-slate-200 ">
+    <header className="h-32 bg-slate-200">
       <div className="w-full h-full flex content-center justify-center container mx-auto">
         <nav className="flex w-1/3 justify-center content-center m-auto">
           <ul className="w-full flex justify-start">
