@@ -5,10 +5,11 @@ import { GridContainer } from "@/components/grid/GridContainer";
 
 import StaticImageCard from "@/components/grid/StaticImageCard";
 import ShowcaseImageCard from "@/components/grid/ShowcaseImageCard";
+import Layout from "@/components/ui/Layout";
 
 export default function Home() {
   return (
-    <div>
+    <Layout>
       <main>
         <div>Hello World!</div>
         <GridContainer>
@@ -37,6 +38,6 @@ export default function Home() {
           <StaticImageCard imageUrl="https://via.placeholder.com/1080x1080/eee?text=1:1" />
         </GridContainer>
       </main>
-    </div>
+    </Layout>
   );
 }
