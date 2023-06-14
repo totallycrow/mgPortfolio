@@ -15,7 +15,7 @@ export default function Home() {
         <div>Hello World!</div>
         <GridContainer>
           <ShowcaseImageCard
-            imageUrl="https://via.placeholder.com/1080x1080/eee?text=1:1"
+            imageUrl="v1686736457/eee_jywdre.png"
             hoverText="Lorem ipsum dolor sit amet"
             link="#"
           />
@@ -23,7 +23,28 @@ export default function Home() {
           <CldImage
             width="600"
             height="600"
-            src="v1686668032/cld-sample-4.jpg"
+            src="v1686736457/eee_jywdre.png"
+            alt={"test"}
+          />
+
+          <CldImage
+            width="600"
+            height="600"
+            src="v1686736457/eee_jywdre.png"
+            alt={"test"}
+          />
+
+          <CldImage
+            width="600"
+            height="600"
+            src="v1686736457/eee_jywdre.png"
+            alt={"test"}
+          />
+
+          <CldImage
+            width="600"
+            height="600"
+            src="v1686736457/eee_jywdre.png"
             alt={"test"}
           />
 
