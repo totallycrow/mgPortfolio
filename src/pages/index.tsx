@@ -23,28 +23,28 @@ export default function Home() {
           <CldImage
             width="600"
             height="600"
-            src="v1686736457/eee_jywdre.png"
+            src="v1686736457/eee_jywdre"
             alt={"test"}
           />
 
           <CldImage
             width="600"
             height="600"
-            src="v1686736457/eee_jywdre.png"
+            src="v1686736457/eee_jywdre"
             alt={"test"}
           />
 
           <CldImage
             width="600"
             height="600"
-            src="v1686736457/eee_jywdre.png"
+            src="v1686736457/eee_jywdre"
             alt={"test"}
           />
 
           <CldImage
             width="600"
             height="600"
-            src="v1686736457/eee_jywdre.png"
+            src="v1686736457/eee_jywdre"
             alt={"test"}
           />
 
