@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { CldImage } from "next-cloudinary";
 
 import { Header } from "@/components/header/Header";
 import { GridContainer } from "@/components/grid/GridContainer";
@@ -18,6 +19,14 @@ export default function Home() {
             hoverText="Lorem ipsum dolor sit amet"
             link="#"
           />
+
+          <CldImage
+            width="600"
+            height="600"
+            src="v1686668032/cld-sample-4.jpg"
+            alt={"test"}
+          />
+
           <ShowcaseImageCard
             imageUrl="https://via.placeholder.com/1080x1080/eee?text=1:1"
             hoverText="Lorem ipsum dolor sit amet"
