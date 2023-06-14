@@ -31,14 +31,21 @@ export default function Home() {
             width="600"
             height="600"
             src="v1686736457/eee_jywdre"
-            alt={"test"}
+            alt={"test cloudi"}
+          />
+
+          <Image
+            width="600"
+            height="600"
+            src="https://res.cloudinary.com/dhwauc0fb/image/upload/v1686736457/eee_jywdre.png"
+            alt={"test nextImage"}
           />
 
           <CldImage
             width="600"
             height="600"
             src="v1686736457/eee_jywdre"
-            alt={"test"}
+            alt={"test cloudi"}
           />
 
           <CldImage
