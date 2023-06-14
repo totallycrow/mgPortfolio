@@ -9,6 +9,7 @@ const nextConfig = {
     loader: "cloudinary",
     path: "https://res.cloudinary.com/dhwauc0fb",
     domains: ["res.cloudinary.com"],
+    unoptimized: true,
   },
 };
 
